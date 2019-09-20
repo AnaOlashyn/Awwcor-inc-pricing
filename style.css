@@ -265,7 +265,7 @@ h6 {
 
 .pricing__text {
 	text-align: center;
-
+	font-weight: 300;
 	color: #6b7c93;
 	margin: 0 15px 50px;
 
@@ -303,11 +303,13 @@ h6 {
 
 .proposal__text {
 	text-align: center;
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 300;
 }
 
 .proposal__img {
-	width: 18%;
+	width: 216px;
+	min-height: 147px;
 }
 
 .container--proposal_1:hover .proposal__img_group-hiring {
@@ -600,23 +602,6 @@ h6 {
 		padding: 0 20px;
 	}
 
-	.works__inner {
-		flex-direction: column;
-	}
-
-	.works__item {
-		width: 100%;
-		margin-bottom: 5px;
-	}
-
-	.works__item:hover {
-		transform: scale(1);
-	}
-
-	.works__text {
-		margin-bottom: 25px;
-		text-align: justify;
-	}
 
 	.proposal__text-block {
 		margin: 0;
@@ -625,12 +610,16 @@ h6 {
 	}
 
 	.proposal__img {
-		width: 50%;
+		width: auto;
 	}
 
 	.proposal__title {
 		margin-top: 10px;
 		max-width: 92%;
+	}
+
+	.proposal__text {
+		font-size: 16px;
 	}
 
 	.container--proposal {
